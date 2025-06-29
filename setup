@@ -1,0 +1,19 @@
+# setup.py
+
+from setuptools import setup, find_packages
+
+setup(
+    name='contactscraper',
+    version='0.1.0',
+    packages=find_packages(),
+    install_requires=[
+        'pandas',
+        'requests',
+        'beautifulsoup4',
+        'googlesearch-python',
+        'openpyxl',
+    ],
+    author='Manish Mahendra Shriram',
+    description='Private contact scraper for internal use',
+    license='Private',
+)
